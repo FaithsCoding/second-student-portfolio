@@ -1,52 +1,60 @@
 
-/* This section of CSS is universal and is applied as a default when no other css has been declared*/
+/* This section of CSS is universal and is applied as a default when no other css has been declared I have added variables within my CSS for text alignment and color.
+This allows me to have more direct CSS with no repetition.*/
 
 * {
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 padding: 5px;
 margin: 5px;
 text-align: center;
---background-color: #262626;
+--dark-color: #262626;
 --light-text-color: #d9dcd6;
---grey: #545F6D;
+--blue-grey: #545F6D;
 --medium-grey: #B0B0B0;
 }
+
+/* Below lists the individual CSS rules for each type of header used as I wanted them to be different then the default settings*/
+h2 {
+  background-color: var(--dark-color);
+  color: var(--light-text-color);
+}
+
+h3 {
+  background-color: var(--blue-grey);
+  color: var(--light-text-color);
+  border-radius: 10%;
+  }
+
 
 /* This CSS is only applying to the main header.*/
 header {
   background-color: var(--medium-grey);
-  color: var(--background-color);
+  color: var(--dark-color);
   font: 30px bolder;
   }
 
-  p {
-    font-size: 14px;
-  }
 
-  /* The below CSS is applied to the nav bar. It also allows the UI to change colour when it is being or has been interacted with.*/
-
+/* The below CSS is applied to the nav bar. It also allows the UI to change colour when it is being or has been interacted with.*/
 nav {
    font-size: 20px;
-   color: var(--background-color);
-   padding: 0px;
-   border-radius: 5%;
+   color: var(--dark-color);
 
 }
 
 nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 a:link {
-  color: var(--background-color);
+  color: var(--dark-color);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: var(--background-color);
+  color: var(--dark-color);
   background-color: transparent;
-  text-decoration: none;
+
 }
 
 a:hover {
@@ -61,97 +69,65 @@ a:active {
   text-decoration: underline;
 }
 
-/* Below lists the individual CSS for each type of header used as I wanted them to be different then the default settings*/
-
-h2 {
-  background-color: var(--background-color);
-  color: var(--light-text-color);
-  border-radius: 10%;
+/* I used an ID to change the properties of this image as it is the only within this section, I also didn't need to apply the same rules to any other images therefore ID was the most appropriate tool to apply. */
+#profilepic {
+  width: 250px;
 }
 
-  h3 {
-    background-color: var(--grey);
-    color: var(--light-text-color);
-    border-radius: 10%;
-    width: 100%;
-  }
-
-  h4 {
-    font-style:oblique;
-  }
-
-  .hello {
-    display: inline-block;
-    align-content: center;
-    }
-
+/* I wanted my heading for 'funfacts' to be different from what I stated earlier therefore I used the below syntaxt to define it's new properties.
+I also used a flex box for this section so that I could organsie the text into rows. */
 .funfacts h3 {
   padding: 30px;
-  align-content: center;
 }
 
 .funfacts {
-display: flex;
-flex-direction: row;
-align-self; center;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
 }
-
-  /* I used an ID to change the properties of this image as it is the only within this section, I also didn't need to apply the same rules to any other images therefore ID was the most appropriate tool to apply. */
-  #profilepic {
-    width: 250px;
-    }
-
     
-/* The card image is applying the CSS to the biggest image within the portfolio section. It is also setting out the layout for this section.Card small is being applied to the smaller images within the section*/
-  .card {
+/* The card image is applying the CSS to the biggest image within the portfolio section. It is also setting out the layout for this section.
+Card small is being applied to the smaller images within the section. I also added a hover on the images to show when the cursor is hovering over them as shown in the example*/
+.card {
     display: inline-block;
-    width: 90%;
   }
 
-  .card img {
+.card img {
     width: 100%;
     display: flex;
     flex: wrap;
   }
 
-  .cardsmall {
+.cardsmall {
     display: inline-block;
-    flex: wrap;
-    padding:30px;
     width: 45%;
   }
 
-  #preworkstudyguide {
-    display: inline-block;
-  }
-  .fadeinimage {
+.fadeinimage {
     opacity: 100%;
   }
 
-  .fadeinimage:hover{
+.fadeinimage:hover{
     opacity: 50%;
   }
 
-  /* This ID is allowing the links to appear underlined and bold */
-
- #contactme a {
+  /* This ID is allowing the links to appear underlined and bold within the contact me section. */
+#contactme a {
   text-decoration: underline;
   font-weight: bold;
 }
 
-  .footer {
+.footer {
     width: full;
-    margin: 0px;
     background-color: var(--medium-grey);
-    color: var(--background-color);
+    color: var(--dark-color);
   }
 
-  .footer a {
+.footer a {
     font-weight: bold;
   }
 
   /* I added media queries to the bottom of my CSS to ensure that the website is responsive for tablets and smart phones making it accessible to all users. Different designs have been aplied to each size to make it clear when the size is being altered.*/
-
   @media screen and (max-width: 992px) {
     header {
       background: #772014;

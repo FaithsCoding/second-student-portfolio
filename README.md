@@ -32,12 +32,12 @@ A page of a portfolio has been created showcasing previously completed projects.
 A recent photo of student appears, with a section about them and how to contact them with a name visible at the top of the section. 
 When the links in the navigation bar are clicked the UI scrolls to the relevant section. 
 The 'Home' button in the navigation bar refreshes the page. 
-The most recent project completed has a larger image in comparison to two older projects. 
+The most recent project completed has a larger image in comparison to two older projects.
 When the images are clicked they take you to the deployed URL allowing viewing of the full page project which is selected to open in a new tab.
-When the images are hovered over they fade.
+When the images are hovered over their opacity fades.
 The page has been made responsive to accomodate for 3 different size screens. 
 You are provided with two links in the contact me section to navigate to my GitHub or Email me with a mailto link included so it is a direct contact. 
-There is a background image added in the CSS to the aside section to add some design. 
+There is a background image added in the CSS to the 'hello' section to add some design. 
 When you go to the footer you can click "Return to top" and it will navigate to the top of the page. 
 
 ![week-2-challenge](https://user-images.githubusercontent.com/122907573/217798245-360c6b62-f82b-40ed-9067-8c9ea12cf5c8.png)

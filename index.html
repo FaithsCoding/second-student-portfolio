@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
   </head>
  
+  <!-- I began my body tag here as all content within the HTML has to be specfied here. I have then used to header to include my NAV bar as it looked better.-->
   <body>
   <header id="home"> 
     <h1>Welcome to my Porfolio!</h1>
@@ -17,31 +18,33 @@
           <li><a href="#portfolio">My Work</a></li>
           <li><a href="#contactme">Contact Me</a></li>
       </ul>
-    </nav>
-    
-</header>
-
-<section class="Hello">
+    </nav> 
+   </header>
+   
+  <!-- I began my main tag here as each section below is on the main part of the webpage-->
+  <main>
+  <section>
   <h3>Hello, I'm Faith Meades!<p>Thank you for checking out my portfolio.</p><img id="profilepic" src="assets/meresized (1).png" alt="Profile Picture"></h3>  
-  
   </section>
 
+  <!-- I have made the HTML code simple for this section but applied flex properties to it so it is more visiually appealing and demostrates the use of flex properties.-->
   <section class = "funfacts">
     <h3>Fun facts about me</h3>
     <p> I started horseriding when I was 11 and got my first pony when I was 13, we went on to win a lot of competitions mostly within dressage. </p>
-    <p> My other passion is music. I am a singer songwriter as well as learning to play the guitar and being able to play the piano. I am also in a duo called Blind Faith which consists of myself and John Garret who is a blind pianist (hence the name!)</p>
+    <p> My other passion is music. I am a singer songwriter as well as learning to play the guitar and being able to play the piano. I am also in a duo called Blind Faith which consists of myself and John who is a blind pianist (hence the name!)</p>
     <p> Last, but certainly not least, I love coding! I started to create front end designs for websites during COVID. I then went on to creating logos and other branding and social images for clients.</p>
-    <p> I am excited to learn everything the bootcamp has to offer me and be able to apply that in a real world situation</p>
   </section>
 
-    <main>
+  <!-- I put each line of text into a new P tag so that it created a new paragraph each time.-->
       <section id="aboutme">
         <h2>About Me</h2>
-        <p>I am a hard working dedicated inividual. I will always be attentive to detail and listen to what is being asked of me. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id fermentum ligula, et lobortis mauris. Sed eu iaculis felis, dignissim molestie lectus. Duis at lectus odio. Cras ac neque dolor. Nunc sed pharetra enim. Maecenas posuere, est et ultricies consequat, sem arcu eleifend purus, quis malesuada metus lectus sit amet dui. Pellentesque pulvinar tristique sem, ut mattis erat pulvinar ut. Integer eu sollicitudin ante, sit amet egestas ante. Praesent lobortis ex mauris, ut ornare mauris efficitur at. Mauris viverra dapibus metus ac molestie. Ut vestibulum dignissim magna, consequat euismod enim ultrices vel. Maecenas at pellentesque arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id fermentum ligula, et lobortis mauris. Sed eu iaculis felis, dignissim molestie lectus. Duis at lectus odio. Cras ac neque dolor. Nunc sed pharetra enim. Maecenas posuere, est et ultricies consequat, sem arcu eleifend purus, quis malesuada metus lectus sit amet dui. Pellentesque pulvinar tristique sem, ut mattis erat pulvinar ut. Integer eu sollicitudin ante, sit amet egestas ante. Praesent lobortis ex mauris, ut ornare mauris efficitur at. Mauris viverra dapibus metus ac molestie. Ut vestibulum dignissim magna, consequat euismod enim ultrices vel. Maecenas at pellentesque arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id fermentum ligula, et lobortis mauris. Sed eu iaculis felis, dignissim molestie lectus. Duis at lectus odio. Cras ac neque dolor. Nunc sed pharetra enim. Maecenas posuere, est et ultricies consequat, sem arcu eleifend purus, quis malesuada metus lectus sit amet dui. Pellentesque pulvinar tristique sem, ut mattis erat pulvinar ut. Integer eu sollicitudin ante, sit amet egestas ante. Praesent lobortis ex mauris, ut ornare mauris efficitur at. Mauris viverra dapibus metus ac molestie. Ut vestibulum dignissim magna, consequat euismod enim ultrices vel. Maecenas at pellentesque arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
       </section>
-      
+
+      <!-- This section has both a class and ID due to the CSS defining the appearance of the section and the ID is allowing it to link to and from the NAV bar.-->
+      <!-- I also added in a div for the 'fadein' class as a small amount of information needed to be separated within the section. -->
       <section class="card" id ="portfolio">
         <h2>My Work</h2>
         <div class="fadeinimage">
@@ -53,16 +56,17 @@
           <h2>Prework Study Guide</h2>
           <div class ="fadeinimage">
           <a href="https://faithscoding.github.io/prework-study-guide/" target="_blank"><img src="assets/preworkstudyguide.png" alt="takes you to faith's preworkstudyguide"/></a>
-        </div>
+          </div>
        </section>
   
         <section class="cardsmall"  id="First Student Portfolio">
           <h2>First Student Portfolio</h2>
           <div class ="fadeinimage">
           <a href="https://faithscoding.github.io/first-student-portfolio/" target="_blank"><img src="assets/firststudentportfolio.png" alt="takes you to faiths first-student-portfolio"/></a>
-        </div>
+          </div>
       </section>
 
+      <!-- In the contact me section I have added a link to my GitHub and also made it so there is a quick link to email me.-->
     <section id="contactme">
       <h2>Contact Me</h2>
       <p>You can contact me via the below methods:</p>
@@ -71,6 +75,8 @@
     </section>
     </main>
 
+    <!-- I ended my main tag there is we move on to the footer however I have kept the footer within side the body tag.
+    The footer has a copy right symbol as well as a link to return to the top of the page link.-->
     <section class="footer">
       <p>This footer has been created with love by faithscoding &copy; 2023. <a href="#home">Return to top.</a></p>
     </section>
