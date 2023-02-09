@@ -42,3 +42,5 @@ When you go to the footer you can click "Return to top" and it will navigate to 
 
 ![week-2-challenge](https://user-images.githubusercontent.com/122907573/217798245-360c6b62-f82b-40ed-9067-8c9ea12cf5c8.png)
 
+[Link to deployed website](https://faithscoding.github.io/second-student-portfolio/)
+
