@@ -38,8 +38,5 @@ The page has been made responsive to accomodate for 3 different size screens.
 You are provided with two links in the contact me section to navigate to my GitHub or Email me with a mailto link included so it is a direct contact. 
 There is a background image added in the CSS to the aside section to add some design. 
 When you go to the footer you can click "Return to top" and it will navigate to the top of the page. 
-
-
-
-(assets/week-2-challenge.png/)
-
+[
+](https://github.com/FaithsCoding/second-student-portfolio/blob/main/assets/week-2-challenge.png)
