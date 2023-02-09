@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
   <head>
     <title>Faith Meades Portfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   </head>
  
   <!-- I began my body tag here as all content within the HTML has to be specfied here. I have then used to header to include my NAV bar as it looked better.-->
@@ -23,12 +23,14 @@
    
   <!-- I began my main tag here as each section below is on the main part of the webpage-->
   <main>
-  <section>
-  <h3>Hello, I'm Faith Meades!<p>Thank you for checking out my portfolio.</p><img id="profilepic" src="assets/meresized (1).png" alt="Profile Picture"></h3>  
+  <section class ="hello">
+  <h2>Hello, I'm Faith Meades!</h2>
+  <img id="profilepic" src="assets/images/me.png" alt="Profile Picture">  
+  <p> Thank you for visiting my portfolio</p>
   </section>
 
   <!-- I have made the HTML code simple for this section but applied flex properties to it so it is more visiually appealing and demostrates the use of flex properties.-->
-  <section class = "funfacts">
+  <section class="funfacts">
     <h3>Fun facts about me</h3>
     <p> I started horseriding when I was 11 and got my first pony when I was 13, we went on to win a lot of competitions mostly within dressage. </p>
     <p> My other passion is music. I am a singer songwriter as well as learning to play the guitar and being able to play the piano. I am also in a duo called Blind Faith which consists of myself and John who is a blind pianist (hence the name!)</p>
@@ -37,48 +39,42 @@
 
   <!-- I put each line of text into a new P tag so that it created a new paragraph each time.-->
       <section id="aboutme">
-        <h2>About Me</h2>
+        <h3>About Me</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id fermentum ligula, et lobortis mauris. Sed eu iaculis felis, dignissim molestie lectus. Duis at lectus odio. Cras ac neque dolor. Nunc sed pharetra enim. Maecenas posuere, est et ultricies consequat, sem arcu eleifend purus, quis malesuada metus lectus sit amet dui. Pellentesque pulvinar tristique sem, ut mattis erat pulvinar ut. Integer eu sollicitudin ante, sit amet egestas ante. Praesent lobortis ex mauris, ut ornare mauris efficitur at. Mauris viverra dapibus metus ac molestie. Ut vestibulum dignissim magna, consequat euismod enim ultrices vel. Maecenas at pellentesque arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id fermentum ligula, et lobortis mauris. Sed eu iaculis felis, dignissim molestie lectus. Duis at lectus odio. Cras ac neque dolor. Nunc sed pharetra enim. Maecenas posuere, est et ultricies consequat, sem arcu eleifend purus, quis malesuada metus lectus sit amet dui. Pellentesque pulvinar tristique sem, ut mattis erat pulvinar ut. Integer eu sollicitudin ante, sit amet egestas ante. Praesent lobortis ex mauris, ut ornare mauris efficitur at. Mauris viverra dapibus metus ac molestie. Ut vestibulum dignissim magna, consequat euismod enim ultrices vel. Maecenas at pellentesque arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id fermentum ligula, et lobortis mauris. Sed eu iaculis felis, dignissim molestie lectus. Duis at lectus odio. Cras ac neque dolor. Nunc sed pharetra enim. Maecenas posuere, est et ultricies consequat, sem arcu eleifend purus, quis malesuada metus lectus sit amet dui. Pellentesque pulvinar tristique sem, ut mattis erat pulvinar ut. Integer eu sollicitudin ante, sit amet egestas ante. Praesent lobortis ex mauris, ut ornare mauris efficitur at. Mauris viverra dapibus metus ac molestie. Ut vestibulum dignissim magna, consequat euismod enim ultrices vel. Maecenas at pellentesque arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
       </section>
 
       <!-- This section has both a class and ID due to the CSS defining the appearance of the section and the ID is allowing it to link to and from the NAV bar.-->
-      <!-- I also added in a div for the 'fadein' class as a small amount of information needed to be separated within the section. -->
-      <section class="card" id ="portfolio">
-        <h2>My Work</h2>
-        <div class="fadeinimage">
-        <a href="https://faithscoding.github.io/week-1-challenge/" target="_blank"> <img src="assets/week1challenge.png" alt="camera"/></a>
-        </div>
+      <!-- I used an image class 'fadein' to add a CSS fade effect to the images. -->
+      <section class="card" id="portfolio">
+        <h4>My Work</h4>
+        <a href="https://faithscoding.github.io/week-1-challenge/" target="_blank"><img class="fadeinimage" src="assets/images/week1challenge.png" alt="websites"></a>
       </section>
 
-        <section class="cardsmall"  id="Prework Study Guide">
-          <h2>Prework Study Guide</h2>
-          <div class ="fadeinimage">
-          <a href="https://faithscoding.github.io/prework-study-guide/" target="_blank"><img src="assets/preworkstudyguide.png" alt="takes you to faith's preworkstudyguide"/></a>
-          </div>
+        <section class="cardsmall">
+          <h4>Prework Study Guide</h4>
+          <a href="https://faithscoding.github.io/prework-study-guide/" target="_blank"><img class="fadeinimage" src="assets/images/preworkstudyguide.png" alt="takes you to faith's preworkstudyguide"></a>
        </section>
   
-        <section class="cardsmall"  id="First Student Portfolio">
-          <h2>First Student Portfolio</h2>
-          <div class ="fadeinimage">
-          <a href="https://faithscoding.github.io/first-student-portfolio/" target="_blank"><img src="assets/firststudentportfolio.png" alt="takes you to faiths first-student-portfolio"/></a>
-          </div>
+        <section class="cardsmall">
+          <h4>First Student Portfolio</h4>
+          <a href="https://faithscoding.github.io/first-student-portfolio/" target="_blank"><img class="fadeinimage" src="assets/images/firststudentportfolio.png" alt="takes you to faiths first-student-portfolio"></a>
       </section>
 
       <!-- In the contact me section I have added a link to my GitHub and also made it so there is a quick link to email me.-->
     <section id="contactme">
-      <h2>Contact Me</h2>
+      <h3>Contact Me</h3>
       <p>You can contact me via the below methods:</p>
-      <a href="https://github.com/FaithsCoding" alt="navigate to faith's github">Checkout my GitHub</a>
-      <a href="mailto:faithscoding@outlook.com" alt="email faith meades"> Email Me</a>
+      <a href="https://github.com/FaithsCoding">Checkout my GitHub</a>
+      <a href="mailto:faithscoding@outlook.com"> Email Me</a>
     </section>
     </main>
 
     <!-- I ended my main tag there is we move on to the footer however I have kept the footer within side the body tag.
     The footer has a copy right symbol as well as a link to return to the top of the page link.-->
     <section class="footer">
-      <p>This footer has been created with love by faithscoding &copy; 2023. <a href="#home">Return to top.</a></p>
+      <h5>This footer has been created with love by faithscoding &copy; 2023. <a href="#home">Return to top.</a></h5>
     </section>
 
   </body>

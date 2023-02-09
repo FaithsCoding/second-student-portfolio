@@ -14,10 +14,10 @@ text-align: center;
 }
 
 /* Below lists the individual CSS rules for each type of header used as I wanted them to be different then the default settings*/
-h2 {
-  background-color: var(--dark-color);
+h2 {  
+  background-color: var(--blue-grey);
   color: var(--light-text-color);
-}
+  border-radius: 10%;}
 
 h3 {
   background-color: var(--blue-grey);
@@ -25,6 +25,9 @@ h3 {
   border-radius: 10%;
   }
 
+h4 {   
+  background-color: var(--dark-color);
+  color: var(--light-text-color);}
 
 /* This CSS is only applying to the main header.*/
 header {
@@ -69,9 +72,16 @@ a:active {
   text-decoration: underline;
 }
 
+.hello {
+  background-color: var(--blue-grey);
+  border-radius: 5%;
+  color: var(--light-text-color);
+}
+
 /* I used an ID to change the properties of this image as it is the only within this section, I also didn't need to apply the same rules to any other images therefore ID was the most appropriate tool to apply. */
 #profilepic {
   width: 250px;
+  background-color: var(--blue-grey);
 }
 
 /* I wanted my heading for 'funfacts' to be different from what I stated earlier therefore I used the below syntaxt to define it's new properties.
@@ -119,12 +129,18 @@ Card small is being applied to the smaller images within the section. I also add
 
 .footer {
     width: full;
-    background-color: var(--medium-grey);
     color: var(--dark-color);
   }
 
 .footer a {
     font-weight: bold;
+  }
+
+  .footer h5 {
+    font-size: 14px;
+    background-color: var(--medium-grey);
+    color: var(--dark-color);
+    font-weight: lighter;
   }
 
   /* I added media queries to the bottom of my CSS to ensure that the website is responsive for tablets and smart phones making it accessible to all users. Different designs have been aplied to each size to make it clear when the size is being altered.*/
