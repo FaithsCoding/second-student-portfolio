@@ -150,17 +150,14 @@ align-self; center;
     font-weight: bold;
   }
 
-  /* I added media queries to the bottom of my CSS to ensure that the webiste is responsive for tablets and smart phones making it accessible to all users. Different designs have been aplied to each size to make it clear when the size is being altered.*/
+  /* I added media queries to the bottom of my CSS to ensure that the website is responsive for tablets and smart phones making it accessible to all users. Different designs have been aplied to each size to make it clear when the size is being altered.*/
 
   @media screen and (max-width: 992px) {
     header {
       background: #772014;
     }
-    aside #profilepic {
-      width: 80%;
-    }
     .cardsmall {
-      width: 30%;
+      width: 100%;
     }
     .cardsmall h2 {
       font-size: 20px;
@@ -181,13 +178,9 @@ align-self; center;
     nav ul {
       font-size: 60%;
     }
-    aside {
-      font-size: 80%;
-      width: 25%;
-        }
-    aside h2 {
-      font-size: 80%;
-      }
+    .cardsmall {
+      width: 100%;
+    }
   }
   
   @media screen and (max-width: 576px) {
@@ -197,13 +190,6 @@ align-self; center;
     nav ul {
       font-size: 60%;
     }
-    aside {
-      font-size: 80%;
-      width: 100%;
-        }
-    aside #profilepic {
-      width: 80%;
-        }
       .cardsmall {
         width: 100%;
       }
