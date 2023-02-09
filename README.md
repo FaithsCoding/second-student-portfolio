@@ -26,6 +26,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+
 ## Actual Behaviour
 A page of a portfolio has been created showcasing previously completed projects.
 A recent photo of student appears, with a section about them and how to contact them with a name visible at the top of the section. 

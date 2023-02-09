@@ -17,8 +17,6 @@ header {
   background-color: var(--medium-grey);
   color: var(--background-color);
   font: 30px bolder;
-  text-align: center;
-  border-radius: 5%;
   }
 
   p {
@@ -64,9 +62,6 @@ a:active {
 }
 
 /* Below lists the individual CSS for each type of header used as I wanted them to be different then the default settings*/
-h1 {
-    text-align: center;
-  }
 
 h2 {
   background-color: var(--background-color);
@@ -78,37 +73,39 @@ h2 {
     background-color: var(--grey);
     color: var(--light-text-color);
     border-radius: 10%;
-     width: 90%;
+    width: 100%;
   }
 
   h4 {
     font-style:oblique;
   }
 
-  /* Aside is a semantic element which has had the below CSS applied to it to tell the HTML where we we want it placing on our page and what design to add. */
+  .hello {
+    display: inline-block;
+    align-content: center;
+    }
 
-  aside {
-    width: 25%;
-    background-color: #BDB3AB;
-    border-radius: 5%;
-    text-align: center;
-    float:left;
-    background-image: url('/assets/headerbackground.jpg');
+.funfacts h3 {
+  padding: 30px;
+  align-content: center;
+}
 
-  }
+.funfacts {
+display: flex;
+flex-direction: row;
+align-self; center;
+}
 
   /* I used an ID to change the properties of this image as it is the only within this section, I also didn't need to apply the same rules to any other images therefore ID was the most appropriate tool to apply. */
   #profilepic {
     width: 250px;
-    padding: 0px;
     }
 
     
 /* The card image is applying the CSS to the biggest image within the portfolio section. It is also setting out the layout for this section.Card small is being applied to the smaller images within the section*/
   .card {
     display: inline-block;
-    width: 70%;
-    text-align: center;
+    width: 90%;
   }
 
   .card img {
@@ -121,6 +118,7 @@ h2 {
     display: inline-block;
     flex: wrap;
     padding:30px;
+    width: 45%;
   }
 
   #preworkstudyguide {
@@ -146,7 +144,6 @@ h2 {
     margin: 0px;
     background-color: var(--medium-grey);
     color: var(--background-color);
-    text-align: center;
   }
 
   .footer a {
