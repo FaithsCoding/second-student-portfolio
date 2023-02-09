@@ -40,7 +40,8 @@ You are provided with two links in the contact me section to navigate to my GitH
 There is a background image added in the CSS to the 'hello' section to add some design. 
 When you go to the footer you can click "Return to top" and it will navigate to the top of the page. 
 
-![week-2-challenge](https://user-images.githubusercontent.com/122907573/217798245-360c6b62-f82b-40ed-9067-8c9ea12cf5c8.png)
+![screenshotweek2challenge](https://user-images.githubusercontent.com/122907573/217811534-5f846828-1e97-4ffd-884c-e3e81b1c0306.png)
+
 
 [Link to deployed website](https://faithscoding.github.io/second-student-portfolio/)
 
